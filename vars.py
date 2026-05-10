@@ -8,8 +8,8 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "8204209080:AAEghZXNEVD3dB3CpaEYxLFsKKsf
 
 CREDIT = os.environ.get("CREDIT", "⌯ NOOB | ×͜× |")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://greenhornet63603:CvnxnjzknPLxYOfo@cluster0.qif4g18.mongodb.net/?appName=Cluster0")  # Add your own atlas db
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "noob")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://greenhornet63603:kUfy4v26ZOcfQKlK@noob.fyxznrv.mongodb.net/?appName=noob")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
@@ -17,7 +17,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7540570087"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "7540570087").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/+zzgp8DUgaic3MzRl"
+PREMIUM_CHANNEL = "https://t.me/+Vn_oM991e0swMzRl"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://files.catbox.moe/fh731v.jpg").split())) # Image Link For Default Thumbnail 
 
